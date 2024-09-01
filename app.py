@@ -1,5 +1,3 @@
-pip install flask
-
 from flask import Flask,render_template,request
 import google.generativeai as palm
 
@@ -10,7 +8,7 @@ model = {"model": "models/chat-bison-001"}
 app = Flask(__name__)
 
 @app.route("/",methods=["GET","POST"])
-def index():
+def DBS():
     return(render_template("DBS.html"))
 
 if __name__ == "__main__":
