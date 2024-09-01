@@ -1,3 +1,5 @@
-Flask
+flask
+gunicorn
+google-generativeai
 joblib
 numpy
